@@ -52,6 +52,10 @@ video {
   left: 10px;
 }
 
+.page__heading:hover {
+    color: #4c4c4c;
+}
+
 .page__heading:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   white-space: pre;
@@ -61,13 +65,13 @@ video {
   margin-left: auto;
   top: 180px;
   max-width: 746px;
-  max-height: 152px;
+  max-height: 146px;
   padding: 36px 44px 36px 44px;
 
   border: 2px solid #000000;
   border-radius: 20px;
 
-  box-shadow: 0 10px 0 #000000;
+  box-shadow: 0 12px 0 #000000;
   color: #000000;
   background-color: #ffffff;
   font-size: 35px;
