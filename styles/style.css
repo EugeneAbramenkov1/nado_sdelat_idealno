@@ -54,6 +54,8 @@ video {
   white-space: pre;
 
   position: absolute;
+  margin-right: 20px;
+  margin-left: auto;
   top: 180px;
   max-width: 746px;
   max-height: 158px;
