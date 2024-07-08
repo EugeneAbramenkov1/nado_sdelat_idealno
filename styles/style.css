@@ -54,8 +54,8 @@ video {
   white-space: pre;
 
   position: absolute;
+  right: 20px;
   top: 180px;
-  left: 960px;
   max-width: 746px;
   max-height: 158px;
   padding: 36px 44px 36px 44px;
