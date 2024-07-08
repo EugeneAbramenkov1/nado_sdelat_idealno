@@ -39,9 +39,9 @@ video {
   line-height: 136.18px;
   text-align: center;
   margin: 0 auto;
-  max-width: 790px;
-  max-height: 410px;
-  padding-top: 65px;
+  max-width: 800px;
+  max-height: 480px;
+  padding-top: 60px;
 }
 
 .page__heading::after {
