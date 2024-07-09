@@ -3,12 +3,14 @@ html {
 }
 
 body {
+  z-index: -1;
   height: inherit;
   min-width: 800px;
   position: relative;
   display: flex;
   font-family: "Raleway", sans-serif;
   margin: 0;
+  background-color: #fec7ee;
 }
 
 video {
@@ -20,17 +22,17 @@ video {
   object-position: center;
 }
 
-.page__heading::before {
+body::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgb(0 0 0 / 0.2);
+  background-color: rgb(255 255 255 / 0.3);
   z-index: 1;
 }
 
 .page__heading {
   position: static;
-  z-index: 1;
+  z-index: 2;
   font-weight: bold;
   font-size: 116px;
   color: #000000;
@@ -40,8 +42,8 @@ video {
   text-align: center;
   margin: 0 auto;
   max-width: 800px;
-  max-height: 480px;
   padding-top: 60px;
+  
 }
 
 .page__heading::after {
@@ -54,6 +56,7 @@ video {
 
 .page__heading:hover {
     color: #4c4c4c;
+    cursor: default;
 }
 
 .page__heading:hover::before {
@@ -65,7 +68,6 @@ video {
   margin-left: auto;
   top: 180px;
   max-width: 746px;
-  max-height: 146px;
   padding: 36px 44px 36px 44px;
 
   border: 2px solid #000000;
